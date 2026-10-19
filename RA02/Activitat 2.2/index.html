@@ -7,8 +7,8 @@
 <a><img src="https://www.themoviedb.org/assets/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" height="25"></a>
 <nav> 
     <ul>
-    <li><a href="#"> Buscador</a></li>
-    <li><a href="#"> Contacte</a></li>
+    <li><a href="index.html"> Buscador</a></li>
+    <li><a href="contacte.html"> Contacte</a></li>
     </ul>
  </nav>
  <hr>
@@ -17,8 +17,10 @@
 <main>
 <h1>Buscar una pel·lícula</h1>
 <p>Milions de títols, un sol cercador.</p>
-<input type=Cerca una pel·lícula, per exemple Dune>
-<button>Cercar</button>
+<form method="get" action="https://www.themoviedb.org/search">
+    <input type="search" name="query" placeholder="Cerca una pel·lícula, per exemple Dune"> 
+    <button>Cercar</button>
+</form>
 <h2>Resultats</h2>
 <div><img src="IMG\imagen.jpg" width="200" height="300"></div>
 <h3>Iron Man 1</h3>
